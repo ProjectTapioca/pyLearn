@@ -3,6 +3,7 @@
 #  **
 #  */
 #  =-
+# % Modulo - gives the remainder of the division
 # LR - left to right on whichever hs priority
 
 # // Floor Division
