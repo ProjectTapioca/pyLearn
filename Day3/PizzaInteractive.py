@@ -33,7 +33,7 @@ if size == "S":
         print(f"Your final bill is: ${total_price}")
     elif add_pepperoni == "N":
         total_price
-        
+    #Keep in mind this is outside of the elif block so it can be executed 
     print(f"Your final bill is: ${total_price}")
     
 elif size == "M":
