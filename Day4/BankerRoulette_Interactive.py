@@ -1,7 +1,7 @@
 #Split string method
 names_string = input("Give me everybody's names, separated by a comma. ")
 names = names_string.split(", ")
-#Don't change the above vode
+#Don't change the above code
 
 #Write code below this line
 import random
