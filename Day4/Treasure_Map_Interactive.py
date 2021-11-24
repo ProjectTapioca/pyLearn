@@ -21,3 +21,9 @@ map[x-1][y-1] = "X"
 
 # 🚨 Don't change the code below 👇
 print(f"{row1}\n{row2}\n{row3}")
+
+#Dr. Angela Solution
+# horizontal = int(position[0])
+# vertical = int(position[1])
+
+# map[vertical - 1][horizontal - 1] = "X"
