@@ -7,6 +7,11 @@ def my_function():
 my_function()
 #Now our function will run because we have called it
 
+#Defining Functions
 def some_function():
     #Do This
-    #That
+    #Then do this
+    #Finally do this
+    
+#Calling Functions
+    some_function()
