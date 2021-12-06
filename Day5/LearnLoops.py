@@ -16,3 +16,24 @@ total = 0
 for number in range(1, 101):
     total += number
 print(total)
+
+#While Loops
+while something_is_true:
+    print("something")
+    #Do something repeatedly
+    
+#For Loops
+for item in list_of_items:
+    print("Do this")
+    #Do something to each item
+
+for number in range(a, b):
+    print(number)
+    
+#When to use for loop and while loop
+#For loops are for when wanting to reiterate specific number of times
+#   in a range or list
+
+#While loops are for when you don't really care how many times
+#   it takes to carry out a functionality, just as long as it
+#   does it until the condition is met
