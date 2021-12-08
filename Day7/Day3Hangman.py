@@ -39,6 +39,8 @@ while a > 0:
             a = 1
         elif blank != "_":
             a = 0
-    if "_" not in display:
-        end_of_game = True
-        print("You Win.")
+            print("You Win!")
+    #Angela Solution
+    # if "_" not in display:
+    #     end_of_game = True
+    #     print("You Win.")
