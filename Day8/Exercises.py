@@ -15,3 +15,11 @@ def greet_with_name(name):
     print(f"Hello {name}")
 
 greet_with_name("Tom")
+
+def greet_with_inputs(name, location):
+    print(f"Hello {name}")
+    print(f"What is the temperature like in {location}?")
+
+greet_with_inputs(name, location):
+    input("What is your name?")
+
