@@ -16,10 +16,16 @@ def greet_with_name(name):
 
 greet_with_name("Tom")
 
+#Positional arguments for more than one input
 def greet_with_inputs(name, location):
     print(f"Hello {name}")
     print(f"What is the temperature like in {location}?")
 
-greet_with_inputs(name, location):
-    input("What is your name?")
+greet_with_inputs("Tom Shelby","Peaky")
 
+#Keyword Arguments
+def greet_with_positionalargs(person_name = a, proximity_location = b):
+    print(f"You said what {a}")
+    print(f"I thought you were at {b}")
+
+greet_with_positionalargs("Jerry", "NoWhere")
