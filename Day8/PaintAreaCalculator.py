@@ -1,12 +1,10 @@
 # Write your code below this line 👇
 
-def paint_calc(height, width, coverage):
-    paint_area = (height * width) / coverage
-    return(paint_area)
+import math
 
-
-
-
+def paint_calc(height, width, cover):
+    paint_area = (height * width) / cover
+    print(f"You will need {math.ceil(paint_area)} cans")
 
 
 # Write your code above this line 👆
@@ -15,7 +13,7 @@ def paint_calc(height, width, coverage):
 
 
 # 🚨 Don't change the code below 👇
-test_h = int(input()) # Height of wall (m)
+test_h = int(input("Please input the height")) # Height of wall (m)
 test_w = int(input()) # Width of wall (m)
 coverage = 5
 paint_calc(height=test_h, width=test_w, cover=coverage)
