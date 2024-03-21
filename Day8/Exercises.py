@@ -24,8 +24,5 @@ def greet_with_inputs(name, location):
 greet_with_inputs("Tom Shelby","Peaky")
 
 #Keyword Arguments
-def greet_with_positionalargs(person_name = a, proximity_location = b):
-    print(f"You said what {a}")
-    print(f"I thought you were at {b}")
-
-greet_with_positionalargs("Jerry", "NoWhere")
+greet_with_inputs(name = "Jerry", location = "NoWhere")
+#For clean code you may want to take a moment to determine if the value is worth a keyword argument
