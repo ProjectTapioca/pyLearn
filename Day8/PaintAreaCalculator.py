@@ -1,5 +1,11 @@
 # Write your code below this line 👇
 
+def paint_calc(height, width, coverage):
+    paint_area = (height * width) / coverage
+    return(paint_area)
+
+
+
 
 
 
