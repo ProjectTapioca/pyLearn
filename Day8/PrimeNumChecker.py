@@ -8,13 +8,13 @@ def prime_checker(number):
         for count in range(2, max_range):
             math_result = number % count
             if math_result > 0:
-                print(f"{count}")
                 print("Is a prime")
                 prime_status += 1
                 return
             elif math_result == 0:
                 print("Is not a prime")
                 prime_status += 1
+                return
             else:
                 print("Not sure")
 
